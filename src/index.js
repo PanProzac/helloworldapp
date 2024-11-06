@@ -1,4 +1,4 @@
-import express from 'express';
+o import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
     </head>
     <body>
       <div class="container">
-        <h1>Witaj swiecie prosto z ${regionName}!</h1>
+        <h1>Hello sick world ${regionName}!</h1>
       </div>
     </body>
     </html>
