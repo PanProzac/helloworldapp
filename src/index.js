@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
     </head>
     <body>
       <div class="container">
-        <h1>Hello sick worlds ${regionName}!</h1>
+        <h1>witaj swiecie proso z czego? ${regionName}!</h1>
       </div>
     </body>
     </html>
